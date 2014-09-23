@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/abs__dropdownitem_text_padding_left"
+                android:paddingRight="@dimen/abs__dropdownitem_text_padding_left"
+                tools:context="com.example.simplegooglecustomsearch.app.MainActivity">
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/myViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.v4.view.PagerTabStrip
+                android:id="@+id/pagerTabStrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"/>
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

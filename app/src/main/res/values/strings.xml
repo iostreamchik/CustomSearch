@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SGCS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+
+    <!--<string name="apiKey">AIzaSyAfFXwE1mKBPO_EoG3twN1BkUK5O4jhNiw</string>-->
+    <!--<string name="cseKey">009875613339479271280:bxtlvjmkf0o</string>-->
+    <string name="apiKey">AIzaSyBlyJ4gVq-slpDDe97qOzzQ23uXGLaZsj0</string>
+    <string name="cseKey">010359880078450569769:sgr_rvij96u</string>
+    <string name="searchURL">https://www.googleapis.com/customsearch/v1?</string>
+
+    <string-array name="myFragments">
+        <item>Images</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <!--Main database fields-->
+    <string name="table">images</string>
+    <string name="id">_id</string>
+    <string name="img">img</string>
+    <string name="name">name</string>
+    <string name="link">link</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="add">Add to favorites</string>
+    <string name="remove">Remove</string>
+
+</resources>
